@@ -46,28 +46,28 @@ class Main {
   public static void initLibraryData() {
     Book book1 = new Book();
     book1.id = "1";
-    book1.title = "pemrograman java";
+    book1.title = "Clean Code: A Handbook of Agile Software Craftsmanship";
 
     Book book2 = new Book();
     book2.id = "2";
-    book2.title = "pemrograman oop";
+    book2.title = "Design Patterns: Elements of Reusable Object-Oriented Software";
 
     Book book3 = new Book();
     book3.id = "3";
-    book3.title = "pemrograman android";
+    book3.title = "Refactoring: Improving the Design of Existing Code";
 
     Member member1 = new Member();
     member1.id = "1";
-    member1.name = "aka";
+    member1.name = "Ada Lovelace";
 
     Member member2 = new Member();
     member2.id = "2";
-    member2.name = "budi";
+    member2.name = "Linus Torvalds";
 
     Member member3 = new Member();
     member3.id = "3";
-    member3.name = "tono";
-
+    member3.name = "James Gosling";
+    
     library.books.add(book1);
     library.books.add(book2);
     library.books.add(book3);
