@@ -1,3 +1,5 @@
+package MyLibrary;
+
 import java.util.Scanner;
 
 class Main {
