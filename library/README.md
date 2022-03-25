@@ -1,12 +1,12 @@
 # Library App
 
 ## feature :
-1. admin dapat melihat list buku
-2. admin dapat melihat list anggota
-3. admin dapat menambahkan anggota baru
-4. admin dapat meminjamkan buku ke anggota yang dipilih
-5. admin dapat mengembalikan buku dari anggota yang dipilih
+1. admin can see the list of books
+2. admin can see the list of members
+3. admin can add new members
+4. admin can lend books to selected members
+5. admin can return books from selected members
 
-## acceptence criteria : 
-1. admin hanya boleh meminjamkan buku yang belum dipinjam sebelumnya
-2. admin hanya boleh mengembalikan buku yang sudah dipinjam sebelumnya
+## acceptance criteria :
+1. admins can only lend books that have not been borrowed before
+2. admins can only return books that have been borrowed previously
