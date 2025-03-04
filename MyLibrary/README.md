@@ -6,6 +6,7 @@
 3. admin can add new members
 4. admin can lend books to selected members
 5. admin can return books from selected members
+6. admin can add new books
 
 ## acceptance criteria :
 1. admins can only lend books that have not been borrowed before

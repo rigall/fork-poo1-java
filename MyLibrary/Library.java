@@ -1,6 +1,7 @@
 package MyLibrary;
 
 import java.util.ArrayList;
+import java.util.function.BooleanSupplier;
 
 class Library {
   public ArrayList<Book> books = new ArrayList<Book>();
@@ -58,5 +59,9 @@ class Library {
       }
     }
     return null;
+  }
+
+  public void addBook(Book book) {
+    this.books.add(book);
   }
 }
