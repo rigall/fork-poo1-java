@@ -129,7 +129,7 @@ class Main {
     System.out.print("id book : ");
     String bookId = scan.next();
 
-    library.receiveBook(bookId, memberId);
+    library.receiveBook(memberId, bookId);
   }
 
   public static void addBook() {
